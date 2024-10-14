@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../lib/bootstrap.min.css">
+    <style>
+        body{
+            background-image: linear-gradient(to right , blue , rgba(0, 0, 255, 0.401), rgba(0, 0, 255, 0.182));
+        }
+
+        .carousel-item img{
+            height: 400px;
+            object-fit: cover;
+        }
+        .card-img-top {
+            height: 200px;
+            object-fit: cover; 
+        }
+
+        .card {
+            height: 100%;
+        }
+
+        .card-body {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        header > h1{
+            text-align: center;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1>Casa Dos Peixes de couro</h1>
+    </header>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="https://t3.ftcdn.net/jpg/05/27/99/46/360_F_527994622_dxxBiMZTzgPhm8J9Qzy1AB39LklQmWBO.jpg" class="d-block w-100" alt="Slide 1">
+            </div>
+            <div class="carousel-item">
+                <img src="https://media.istockphoto.com/id/182663301/pt/foto/redtail-bagre.jpg?s=612x612&w=is&k=20&c=8HT2SS2skwdmbpwsNryidwEPLALGnQ8Fs4fOmejGm14=" class="d-block w-100" alt="Slide 2">
+            </div>
+            <div class="carousel-item">
+                <img src="https://t4.ftcdn.net/jpg/01/32/63/89/360_F_132638949_FvThaaV9oQo5xE3C2dGAIEfEm1Kb3GN9.jpg" class="d-block w-100" alt="Slide 3">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://media.istockphoto.com/id/2055299904/pt/foto/spotted-sorubim-catfish-freshwater-fish.jpg?s=612x612&w=0&k=20&c=avDo3Ov4ViIKA_opWMdf1w-E5GCIUESqvSz2I203XwU=" class="card-img-top" alt="Card Image 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Surubim Pintado</h5>
+                        <p class="card-text">Pintado pequeno .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://s2-globorural.glbimg.com/4zfkAyYEYF5uOGeAEqiw5uwzuX0=/0x0:5333x3542/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_afe5c125c3bb42f0b5ae633b58923923/internal_photos/bs/2022/N/o/3Mv4hyQgKjhcIBLp8A4Q/2018-05-30-ac11bm-fotoarena.jpg" class="card-img-top" alt="Card Image 2">
+                    <div class="card-body">
+                        <h5 class="card-title">Surubim Cachara</h5>
+                        <p class="card-text">Cachara média.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-6 col-12">
+                <div class="card">
+                    <img src="https://s2-g1.glbimg.com/q3zutiN8z6Qn0jO565HQRj4Vs4c=/0x0:750x421/984x0/smart/filters:strip_icc()/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2022/N/c/gPUiEwShisNRJDj4wrTg/peixe-pintado-nadando-no-raso.jpg" class="card-img-top" alt="card-image-3">
+                    <div class="card-body">
+                        <h5 class="card-title">Surubim Pintado</h5>
+                        <p class="card-text">Pintado Adulto.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+<script src="../lib/bootstrap.bundle.min.js"></script>
+
+</html>
